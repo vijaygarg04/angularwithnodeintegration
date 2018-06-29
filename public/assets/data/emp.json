@@ -1,0 +1,31 @@
+[
+    {
+        "id":1,
+        "name":"vijay",
+        "age":20
+    },
+
+    {
+        "id":2,
+        "name":"vikas",
+        "age":19
+    },
+
+    {
+        "id":3,
+        "name":"vinay",
+        "age":17
+    },
+
+    {
+        "id":4,
+        "name":"dheer",
+        "age":16
+    },
+
+    {
+        "id":5,
+        "name":"hanu",
+        "age":21
+    }
+]
