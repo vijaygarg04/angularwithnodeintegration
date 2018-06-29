@@ -3,9 +3,11 @@ var app= express();
 app.use(express.json());
 app.use(express.urlencoded({extended:true}));
 app.use(express.static(__dirname+'/public'));
-app.get('/',function(req,res){
-    res.send("vijus")
-})
+
+// app.get('/',function(req,res){
+//     res.send("vijus")
+// })
+
 app.get('/something',function(req,res){
     var data =[
     {
@@ -34,7 +36,7 @@ app.get('/something',function(req,res){
 
     {
         "id":5,
-        "name":"hanu",
+        "name":"hanui",
         "age":21
     }
 ]
